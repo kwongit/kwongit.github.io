@@ -2565,7 +2565,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 33%;
 		}
 
 			.features li:nth-child(1) {
@@ -3970,10 +3970,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../../images/profile_pic.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../../images/profile_pic.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../../images/profile_pic.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../../images/profile_pic.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -4002,4 +4002,15 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+/* Profile Pic */
+
+	.profile-pic img{
+		height: 10em;
+		width: 10em;
+		object-fit: cover;
+		padding: 0.65em;
+		border-radius: 100%;
+		border: solid 1px;
 	}
