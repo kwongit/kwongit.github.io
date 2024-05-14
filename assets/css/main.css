@@ -2558,6 +2558,7 @@ input, select, textarea {
 		list-style: none;
 		padding: 0;
 		width: 100%;
+		gap: 5px
 	}
 
 		.features li {
