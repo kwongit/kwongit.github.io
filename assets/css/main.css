@@ -2815,7 +2815,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 5em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3604,8 +3604,8 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		height: 100vh;
-		min-height: 35em;
+		/* height: 100vh; */
+		min-height: 20em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3658,6 +3658,7 @@ input, select, textarea {
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			padding-top: 2rem;
 		}
 
 			#banner p a {
@@ -3912,7 +3913,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 5em 0 4em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -3986,6 +3987,16 @@ input, select, textarea {
 				padding: 3em 2em 1em 2em ;
 			}
 
+		}
+
+		.resume-button {
+			border: 1px solid white;
+			padding: 10px;
+			font-size: small;
+		}
+
+		.resume-button:hover {
+			/* color: white; */
 		}
 
 /* Landing */
