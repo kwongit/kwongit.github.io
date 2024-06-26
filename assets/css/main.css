@@ -2558,7 +2558,12 @@ input, select, textarea {
 		list-style: none;
 		padding: 0;
 		width: 100%;
-		gap: 5px
+		gap: 5px;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.features img:hover {
+		transform: scale(1.05);
 	}
 
 		.features li {
