@@ -4061,3 +4061,18 @@ input, select, textarea {
 	.about-me-paragraph {
 		text-align: justify;
 	}
+
+.content ul.icons.major li a {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 2px solid #007BFF;
+	border-radius: 5px;
+	background-color: #007BFF;
+	transition: background-color 0.3s, color 0.3s;
+	font-weight: 700;
+}
+
+.content ul.icons.major li a:hover {
+	background-color: white;
+	color: #007BFF;
+}
