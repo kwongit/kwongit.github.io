@@ -2554,11 +2554,11 @@ input, select, textarea {
 		padding: 0;
 		width: 100%;
 		gap: 5px;
-		transition: transform 0.3s ease-in-out;
+		transition: transform 0.5s ease-in-out;
 	}
 
 	.features img:hover {
-		transform: scale(1.05);
+		transform: scale(1.05) translateY(-10px);
 	}
 
 		.features li {
