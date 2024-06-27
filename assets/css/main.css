@@ -140,14 +140,9 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
 	}
-
-		a:hover {
-			border-bottom-color: transparent;
-		}
 
 	strong, b {
 		color: #fff;
@@ -4000,16 +3995,6 @@ input, select, textarea {
 
 		}
 
-		.resume-button {
-			border: 1px solid white;
-			padding: 10px;
-			font-size: small;
-		}
-
-		.resume-button:hover {
-			/* color: white; */
-		}
-
 /* Landing */
 
 	body.landing #page-wrapper {
@@ -4049,13 +4034,19 @@ input, select, textarea {
 
 /* Profile Pic */
 
-	.profile-pic img{
+	.profile-pic img {
 		height: 10em;
 		width: 10em;
 		object-fit: cover;
 		padding: 0.65em;
 		border-radius: 100%;
 		border: solid 1px;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.profile-pic img:hover {
+		transform: scale(1.05);
+		padding: 0;
 	}
 
 	.about-me-paragraph {
@@ -4075,4 +4066,21 @@ input, select, textarea {
 .content ul.icons.major li a:hover {
 	background-color: white;
 	color: #007BFF;
+}
+
+.resume-button {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 2px solid #007BFF;
+	border-radius: 5px;
+	background-color: #007BFF;
+	color: white;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+	font-weight: 700;
+}
+
+.resume-button:hover {
+	background-color: white;
+	color: #007BFF;
+
 }
