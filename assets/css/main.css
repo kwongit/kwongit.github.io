@@ -2305,30 +2305,59 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1em 0 0;
+	ul.icons li {
+		display: inline-block;
+		padding: 0 1em 0 0;
 		}
 
-			ul.icons li:last-child {
-				padding-right: 0 !important;
-			}
+		ul.icons li:last-child {
+			padding-right: 0 !important;
+		}
 
 		ul.icons.major {
 			padding: 1em 0;
 		}
 
+				ul.icons li .icon {
+					display: flex;
+					text-decoration: none;
+				}
+
+				ul.icons li .icon span {
+					position: relative;
+					display: block;
+					text-align: center;
+					transition: font-weight 0.3s;
+					/* Transition for font-weight */
+				}
+
+				ul.icons li .icon span::after {
+					content: '';
+					position: absolute;
+					left: 0;
+					bottom: -2px;
+					/* Adjust as needed to position the underline */
+					width: 0;
+					height: 3px;
+					/* Height of the underline */
+					background-color: currentColor;
+					/* Same color as the text */
+					transition: width 0.3s ease-in-out;
+					/* Transition for the underline */
+				}
+
+				ul.icons li .icon span:hover::after {
+					width: 100%;
+					/* Expand the underline to full width on hover */
+				}
+
+		@media screen and (max-width: 736px) {
+
 			ul.icons.major li {
-				/* padding-right: 3.5em; */
+				padding: 0 1em !important;
 			}
 
-				@media screen and (max-width: 736px) {
-
-					ul.icons.major li {
-						padding: 0 1em !important;
-					}
-
-				}
+		}
 
 /* Table */
 
@@ -2558,7 +2587,7 @@ input, select, textarea {
 	}
 
 	.features img:hover {
-		transform: scale(1.05) translateY(-10px);
+		transform: scale(1.05);
 	}
 
 		.features li {
@@ -2851,8 +2880,9 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: #21b2a6;
-			color: #c8ece9;
+			/* color: #c8ece9; */
 			padding: 0;
+			text-align: center;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -4064,7 +4094,7 @@ input, select, textarea {
 	}
 
 .content ul.icons.major li a {
-	display: inline-block;
+	/* display: inline-block; */
 	padding: 10px 20px;
 	border: 2px solid #007BFF;
 	border-radius: 5px;
