@@ -1770,7 +1770,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 3.5em 0;
+		/* margin: 0 0 3.5em 0; */
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2025,7 +2025,7 @@ input, select, textarea {
 		}
 
 		.icon > .label {
-			display: none;
+			/* display: none; */
 		}
 
 		.icon:before {
@@ -2319,7 +2319,7 @@ input, select, textarea {
 		}
 
 			ul.icons.major li {
-				padding-right: 3.5em;
+				/* padding-right: 3.5em; */
 			}
 
 				@media screen and (max-width: 736px) {
@@ -4082,5 +4082,17 @@ input, select, textarea {
 .resume-button:hover {
 	background-color: white;
 	color: #007BFF;
+}
 
+.github-badge img, .linkedin-badge img {
+	display: inline-block;
+	transform: scale(1.8);
+	border-radius: 5px;
+}
+
+.about-buttons {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
