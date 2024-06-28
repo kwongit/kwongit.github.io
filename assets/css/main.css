@@ -2309,11 +2309,17 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
-
 			ul.icons.major li {
 				padding: 0 1em !important;
 			}
+		}
 
+		@media screen and (max-width: 380px) {
+			ul.icons.major {
+				display: flex;
+				flex-direction: column;
+				gap: 1em;
+			}
 		}
 
 /* Table */
@@ -2719,6 +2725,14 @@ input, select, textarea {
 
 		.spotlight .content .icons {
 			padding: 3em 0 2em 0;
+		}
+
+		@media screen and (max-width: 491px) {
+			.spotlight .content .icons {
+				display: flex;
+				flex-direction: column;
+				gap: 1em;
+			}
 		}
 
 		.spotlight .content .stack {
