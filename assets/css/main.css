@@ -2683,7 +2683,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		justify-content: center;
-		gap: 2em;
+		padding: 1em;
 	}
 
 		.spotlight .image {
@@ -2692,7 +2692,8 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 25%;
+			/* width: 50%; */
+			padding: 0 2em;
 			overflow: hidden; /* Add this to clip the overflow */
 		}
 
@@ -2707,17 +2708,24 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			/* padding: 0em 4em; */
+			padding: 0 2em;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 48em;
-			width: 60%;
+			/* max-width: 48em; */
+			/* width: 60%; */
 		}
 
 		.spotlight .content .icons {
-			padding: 2em 0;
+			padding: 3em 0 2em 0;
+		}
+
+		.spotlight .content .stack {
+			font-weight: bold;
+			text-transform: uppercase;
+			padding-top: 1em;
+			letter-spacing: 0.225em;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2769,17 +2777,17 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight .image {
-				width: 45%;
+			/* .spotlight .image {
+				width: 35%;
 			}
 
 			.spotlight .content {
 				width: 55%;
-			}
+			} */
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 850px) {
 
 			.spotlight {
 				display: block;
@@ -2813,23 +2821,24 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 2em 0 2em 0 ;
+		padding: 2em 0;
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+			/* width: 60em; */
+			padding: 0 2em;
 			margin: 0 auto;
 		}
 
 			@media screen and (max-width: 1280px) {
 
 				.wrapper > .inner {
-					width: 90%;
+					/* width: 90%; */
 				}
 
 			}
 
-			@media screen and (max-width: 980px) {
+			@media screen and (max-width: 850px) {
 
 				.wrapper > .inner {
 					width: 100%;
@@ -3328,7 +3337,7 @@ input, select, textarea {
 
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 850px) {
 
 			.wrapper {
 				padding: 2em 3em 2em 3em ;
