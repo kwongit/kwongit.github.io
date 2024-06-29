@@ -2701,12 +2701,15 @@ input, select, textarea {
 			/* width: 50%; */
 			padding: 0 2em;
 			overflow: hidden; /* Add this to clip the overflow */
+			/* max-width: 48em; */
+			max-width: 36em;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
 				width: 100%;
 				transition: transform 0.3s ease-in-out;
+				max-width: 48em;
 			}
 
 			.spotlight .image img:hover {
@@ -2714,24 +2717,31 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 0 2em;
+			padding: 2em;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			/* max-width: 48em; */
+			max-width: 48em;
 			/* width: 60%; */
 		}
 
 		.spotlight .content .icons {
-			padding: 3em 0 2em 0;
+			padding: 2em 0 2em 0;
 		}
 
-		@media screen and (max-width: 491px) {
+		@media screen and (max-width: 521px) {
 			.spotlight .content .icons {
 				display: flex;
 				flex-direction: column;
 				gap: 1em;
+			}
+		}
+
+		@media screen and (max-width: 359px) {
+			.content ul.icons.major li a {
+				/* font-size: 8px; */
+				/* font-size: 8pt; */
 			}
 		}
 
@@ -2813,13 +2823,18 @@ input, select, textarea {
 
 				.spotlight .image {
 					width: 100%;
+					padding-top: 1em;
 				}
 
 				.spotlight .content {
-					padding: 4em 3em 2em 3em ;
+					padding: 1.5em 3em 1.5em 3em ;
 					max-width: none;
 					text-align: center;
 					width: 100%;
+				}
+
+				.spotlight .content .icons {
+					padding: 1em 0 1em 0;
 				}
 
 		}
@@ -2827,7 +2842,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlight .content {
-				padding: 3em 2em 1em 2em ;
+				/* padding: 3em 2em 1em 2em ; */
 			}
 
 		}
