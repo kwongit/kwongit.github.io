@@ -2547,6 +2547,8 @@ input, select, textarea {
 		width: 100%;
 		gap: 5px;
 		transition: transform 0.5s ease-in-out;
+		max-width: 90em;
+		margin: 0 auto;
 	}
 
 	.features img:hover {
@@ -2702,14 +2704,14 @@ input, select, textarea {
 			padding: 0 2em;
 			overflow: hidden; /* Add this to clip the overflow */
 			/* max-width: 48em; */
-			max-width: 36em;
+			max-width: 32em;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
 				width: 100%;
 				transition: transform 0.3s ease-in-out;
-				max-width: 48em;
+				max-width: 42em;
 			}
 
 			.spotlight .image img:hover {
@@ -3545,11 +3547,9 @@ input, select, textarea {
 			}
 
 				@media screen and (max-width: 736px) {
-
 					#header h1 a {
 						font-size: 0.8em;
 					}
-
 				}
 
 		#header nav {
@@ -3562,6 +3562,7 @@ input, select, textarea {
 
 		#header .menuToggle:hover {
 			transform: scale(1.05);
+			font-weight: bold;
 		}
 
 			#header nav > ul {
@@ -4031,7 +4032,9 @@ input, select, textarea {
 /* Description */
 
 	.description {
-		/* padding: 0 3em; */
+		max-width: 80em;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -4047,11 +4050,12 @@ input, select, textarea {
 	border-radius: 5px;
 	background-color: #007BFF;
 	transition: background-color 0.3s, color 0.3s;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .content ul.icons.major li a:hover, #footer .copyright li a:hover {
-	background-color: white;
+	/* background-color: white; */
+	background-color: transparent;
 	color: #007BFF;
 }
 
@@ -4063,11 +4067,12 @@ input, select, textarea {
 	background-color: #007BFF;
 	color: white;
 	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .resume-button:hover {
-	background-color: white;
+	/* background-color: white; */
+	background-color: transparent;
 	color: #007BFF;
 }
 
