@@ -2244,7 +2244,7 @@ button.primary,
 input[type=button].primary,
 input[type=reset].primary,
 input[type=submit].primary {
-  background-color: #209cee;
+  background-color: #0E5A9A;
   box-shadow: none !important;
   color: #fff !important
 }
@@ -3381,9 +3381,9 @@ body.is-mobile.landing #footer {
 #footer .copyright li a,
 .content ul.icons.major li a {
   padding: 10px 20px;
-  border: 2px solid #209cee;
+  border: 2px solid #0E5A9A;
   border-radius: 5px;
-  background-color: #209cee;
+  background-color: #0E5A9A;
   transition: background-color .3s, color .3s;
   font-weight: 600
 }
@@ -3392,15 +3392,15 @@ body.is-mobile.landing #footer {
 .content ul.icons.major li a:hover,
 .resume-button:hover {
   background-color: transparent;
-  color: #209cee
+  color: #0E5A9A
 }
 
 .resume-button {
   display: inline-block;
   padding: 10px 20px;
-  border: 2px solid #209cee;
+  border: 2px solid #0E5A9A;
   border-radius: 5px;
-  background-color: #209cee;
+  background-color: #0E5A9A;
   color: #fff;
   transition: background-color .3s ease-in-out, color .3s ease-in-out;
   font-weight: 600
