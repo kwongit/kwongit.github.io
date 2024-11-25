@@ -1,12 +1,12 @@
 [
   {
     "name": "Stephan Stanton",
-    "jobTitle": "Quality Assurance Engineering Manager at Indeed.com",
+    "jobTitle": "QA Manager at Indeed",
     "recommendation": "I managed Kevin for 4 years and had the pleasure of watching him grow tremendously as a QA Engineering professional. Kevin transitioned from a manual QA Engineer to a full-fledged skilled and productive QA Automation Engineer. Kevin is extremely adept at analyzing product code and filling testing gaps, developing new automated tests at the unit, integration and system levels, and building and maintaining product deployment pipelines. Kevin develops trust and very positive working relationships with team members, enabling him to consistently make positive contributions to team success. I highly recommend him, and would love to work with him again."
   },
   {
     "name": "Martin Lienhard",
-    "jobTitle": "Principal Test Automation Engineer",
+    "jobTitle": "Principal QA Automation Engineer at Indeed",
     "recommendation": "When I joined Indeed.com Kevin was in charge of QA for the team's products, as well as the Release Manager. Kevin walked me through how to test each of the projects. When Kevin decided to transfer into a QA Automation Engineer role, I spent a couple of years mentoring him on test automation. Kevin came up to speed quickly on programming and test automation. He did a great job developing integration tests for several different gRPC/protocol buffers and REST API services, which lead to Push on Green, Continuous Deployments for the team. I hope to work with Kevin again in the future, because he definitely raised the bar on quality for the team!"
   }
 ]

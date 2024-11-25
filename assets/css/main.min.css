@@ -3310,6 +3310,10 @@ body.is-preload #banner:after {
   }
 }
 
+#testimonials-content {
+  font-size: smaller;
+}
+
 #footer {
   padding: 3em 0;
   background-color: #1d242a;
