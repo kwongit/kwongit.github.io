@@ -17,10 +17,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     container.innerHTML = data
       .map(
         (rec) => `
-          <blockquote>
-            <p>"${rec.recommendation}"</p>
-            <footer>${rec.name}, ${rec.jobTitle}</footer>
-          </blockquote>
+          <div class="testimonial">
+            <blockquote>
+              <p>"${rec.recommendation}"</p>
+              <footer>${rec.name}, ${rec.jobTitle}</footer>
+            </blockquote>
+          </div>
         `
       )
       .join("");

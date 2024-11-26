@@ -3310,8 +3310,35 @@ body.is-preload #banner:after {
   }
 }
 
-#testimonials-content {
+/* Ensure the container uses a grid layout */
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Spacing between grid items */
+  padding: 20px; /* Optional: Add padding for spacing around the grid */
+}
+
+/* Style for each testimonial block */
+.testimonial {
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   font-size: smaller;
+}
+
+.testimonial blockquote {
+  margin: 0;
+  font-style: italic;
+  text-align: left;
+}
+
+.testimonial footer {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+  color: #555;
 }
 
 #footer {
