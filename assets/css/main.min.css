@@ -3320,7 +3320,7 @@ body.is-preload #banner:after {
 
 /* Style for each testimonial block */
 .testimonial {
-  background-color: #f9f9f9; /* Light gray background */
+  /* background-color: #f9f9f9; */
   border: 1px solid #ddd; /* Subtle border */
   border-radius: 8px; /* Rounded corners */
   padding: 20px;
